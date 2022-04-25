@@ -1,0 +1,487 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <link
+      href="https://fonts.googleapis.com/css?family=DM+Serif+Text|Lexend+Deca&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      href="https://fonts.googleapis.com/css?family=Gamja+Flower|Gugi|Noto+Serif+KR|Stylish|Sunflower:300"
+      rel="stylesheet"
+    />
+    <link 
+      href="https://fonts.googleapis.com/css?family=Dosis:400,500" 
+      rel="stylesheet"
+    />
+    <link 
+      href="https://fonts.googleapis.com/css?family=Great+Vibes" 
+      rel="stylesheet"
+    />
+    <script src="js/main.js" defer></script>
+    <meta charset="UTF-8" />
+    <meta property="og:image" content="./images/pic1_main.jpg" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+<!--&lt;!&ndash;    github cache&ndash;&gt;-->
+<!--    <meta http-equiv='cache-control' content='no-cache'>-->
+<!--    <meta http-equiv='expires' content='0'>-->
+<!--    <meta http-equiv='pragma' content='no-cache'>-->
+
+    <link
+      rel="stylesheet"
+      href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
+      integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T"
+      crossorigin="anonymous"
+    />
+    <link
+      href="images/favicon/apple-touch-icon.png"
+      rel="apple-touch-icon"
+      sizes="180x180"
+    />
+    <link
+      href="images/favicon/favicon-32x32.png"
+      rel="icon"
+      sizes="32x32"
+      type="image/png"
+    />
+    <link
+      href="images/favicon/favicon-16x16.png"
+      rel="icon"
+      sizes="16x16"
+      type="image/png"
+    />
+    <link rel="stylesheet" href="css/style.css" />
+    <link rel="stylesheet" href="css/calendar.css" />
+
+    <script src="//developers.kakao.com/sdk/js/kakao.min.js"></script>
+
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"></script>
+    <!-- nanogallery2 -->
+    <link
+      href="https://cdn.jsdelivr.net/npm/nanogallery2@3/dist/css/nanogallery2.min.css"
+      rel="stylesheet"
+      type="text/css"
+    />
+    <script
+      type="text/javascript"
+      src="https://cdn.jsdelivr.net/npm/nanogallery2@3/dist/jquery.nanogallery2.min.js"
+    ></script>
+
+    <link
+      href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css"
+      rel="stylesheet"
+    />
+
+    <title>이정표 ♥︎ 장은선 결혼합니다</title>
+  </head>
+  <body>
+    <div class="homepage" id="top">
+      <div class="announcement-container">
+        <p class="title" style="
+                  font-family: 'Noto Serif KR', serif;
+                  font-size: 1.5em;
+                  letter-spacing: -1px;
+                  padding-top: 50px;
+                  color: #fff;
+                  text-align: center;
+                ">
+          이정표 ♥︎ 장은선
+        </p>
+        <p class="title" style="
+                  font-family: 'Noto Serif KR', serif;
+                  font-size: 1em;
+                  letter-spacing: -1px;
+                  color: #fff;
+                  text-align: center;
+                ">
+          <b style="font-size: 1em">2022. 05. 28. SAT 7:30 PM</b>
+        </p>
+      </div>
+    </div>
+    <!-- <div class="ww-home-page" id="top">
+      <div class="ww-wedding-announcement d-flex align-items-center justify-content-start">
+        <div class="container ww-announcement-container">
+          <p class="ww-couple-name ww-title" style="font-size:4.0em">Jungpyo & Eunsun</p>
+          <p class="h2 mt-5 ww-title" style="font-family: 'Gugi', cursive; font-size:1.0em">
+            | WE ARE GETTING MARRIED |
+          </p>
+          <p class="h2 mt-5 ww-title" style="font-family: 'Noto Serif KR', serif; font-size:1.0em; letter-spacing:-1px">
+            <b style="font-size:1.4em;">2022. 05. 28. SAT PM 07:30</b>
+            <br>서울 강남구 도곡로99길 16 트라디노이
+          </p>
+        </div>
+      </div>
+    </div> -->
+
+    <nav class="navbar sticky-top navbar-expand-lg navbar-light bg-light">
+      <a class="navbar-brand"></a>
+      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
+        aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+    
+      <div class="collapse navbar-collapse" id="navbarSupportedContent">
+        <ul class="navbar-nav mr-auto">
+          <li class="nav-item">
+            <a class="nav-item nav-link" href="#top">Top</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-item nav-link" href="#couple">Couple</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-item nav-link" href="#event">Event</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-item nav-link" href="#location">Location</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-item nav-link" href="#gallery">Gallery</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-item nav-link" href="#remittance">Heart</a>
+          </li>
+        </ul>
+      </div>
+    </nav>
+
+    <!--      신랑신부-->
+    <div class="ww-section " id="couple">
+      <div class="container">
+<!--        <h2 class="h1 text-center pb-3 ww-title" style="font-family: 'Noto Serif KR', serif;">신랑 & 신부</h2>-->
+        <h2 class="h4 text-center pb-3 ww-title head-color" style="font-family: 'Noto Serif KR', serif;">신랑 & 신부</h2>
+        <div class="row text-center">
+          <div class="col-md-6">
+            <div class="mt-3">
+              <!-- <h3 class="h2 ww-title" style="font-family: 'Sunflower', sans-serif; font-size:1.5em">
+                장은선</h3> -->
+              <div class="names" style=" font-family: 'Noto Serif KR', serif;"><span>장은선</span></div>
+              <img alt="Bride" class="img-fluid"
+                   src="./images/pic11.jpg"/>
+            </div>
+          </div>
+
+
+          <div class="col-md-6">
+            <div class="mt-3">
+              <!-- <h3 class="h2 ww-title" style="font-family: 'Sunflower', sans-serif; font-size:1.5em">
+                이정표</h3> -->
+                <div class="names" style=" font-family: 'Noto Serif KR', serif;"><span>이정표</span></div>
+              <img alt="Groom" class="img-fluid"
+                   src="./images/pic16.jpg"/>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <article>
+
+      <!--      초대합니다-->
+      <div class="ww-section bg-light-ivory white-color" id="event">
+        <div class="container ww-wedding-introduces">
+          <h2 class="h4 text-center pb-3 ww-title head-color" style="font-family: 'Noto Serif KR', serif;">초대합니다</h2>
+          <div class="col text-center mb-5">
+            <h6 style="font-family: 'Noto Serif KR', serif; line-height: 1.8em;">
+              <br>
+              오랜 시간 서로의 곁을 지켜온<br>
+              저희 두 사람, 한 마음 되어<br>
+              함께 맞이하는 열 번째 계절에<br>
+              아름다운 서약을 맺으려 합니다.<br>
+              오셔서 축복해 주시면 큰 기쁨이겠습니다.<br><br>
+            </h6>
+          </div>
+        </div>
+      </div>
+
+      <div class="ww-section bg-dark-ivory">
+        <div class="container ww-wedding-event text-center" style="font-family: 'Noto Serif KR', serif;">
+          <h3 class="h4 text-center pb-3 head-color">예식 안내</h3>
+          <div class="names"><span>예식장</span></div>
+          <ul class="address">
+            <li>
+              <i class="fas fa-map-marker-alt"></i>
+              <span class="pl-2 text-muted">서울 강남구 도곡로99길 16 트라디노이</span>
+            </li>
+            <li class="pt-2">
+              <i class="far fa-calendar-alt"></i>
+              <span class="pl-2 text-muted">2022년 5월 28일, 7:30 PM</span>
+            </li>
+          </ul>
+          <img alt="Wedding Party" class="img-fluid" src="images/wedding-party.jpeg" width="70%"/><br><br><br><br>
+          <!-- <div class="names"><span>피로연</span></div>
+          <ul class="address">
+            <li>
+              <i class="fas fa-map-marker-alt"></i>
+              <span class="pl-2 text-muted">서울 강남구 선릉로76길 25 지하1층 </span><br>
+              <span class="pl-2 text-muted">아일랜드이너프 파티룸 선릉점</span>
+            </li>
+            <li class="pt-2">
+              <i class="far fa-calendar-alt"></i>
+              <span class="pl-2 text-muted">2022년 5월 28일, 9:00 PM</span>
+            </li>
+          </ul>
+          <img alt="Wedding Party" class="img-fluid" src="images/reception.jpeg" width="70%"/><br><br><br><br> -->
+        </div>
+      </div>
+
+<!--      오시는길-->
+      <section class="ww-section white-color" id="location">
+        <div
+                class="separator transparent"
+                style="margin-top: 35px; margin-bottom: 0px"
+        ></div>
+        <div class="container">
+          <div class="col text-center">
+            <h2 class="h4 text-center pb-3 ww-title head-color" style="font-family: 'Noto Serif KR', serif;">오시는 길</h2>
+            <div>
+            </div>
+          </div>
+
+          <div class="form-group">
+            <div class="col-md-12">
+              <div class="my-3 text-center">
+                <a
+                        href="http://naver.me/5zJozzqz"
+                >
+                  <img
+                          alt="naver-map"
+                          class="map-icon"
+                          width="50"
+                          height="50"
+                          id="naver-map"
+                          src="images/map/naver-map.png"
+                  />
+                </a>
+                <a
+                        href="http://kko.to/0UB2XvYlD"
+                >
+                  <img
+                          alt="kakao-map"
+                          class="map-icon"
+                          width="50"
+                          height="50"
+                          id="kakao-map"
+                          src="images/map/kakao-map.png"
+                  />
+                </a>
+              </div>
+              <div class="my-3">
+                <iframe
+                        src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3165.259513577962!2d127.06381201621271!3d37.50179697981011!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x357ca5532bc0e133%3A0x98187055c9b13e4a!2z7Yq4652865SU64W47J20IChUcmEgZGkgTm9pKQ!5e0!3m2!1sen!2sus!4v1650233946731!5m2!1sen!2sus"
+                        width="100%"
+                        height="400"
+                        frameborder="0"
+                        style="border: 0"
+                        allowfullscreen
+                ></iframe>
+              </div>
+            </div>
+          </div>
+
+
+          <div class="comming-introduce">
+            <div><span>지하철 이용시</span></div>
+            <div>삼성역 3번 출구 도보로 8분</div>
+            <div>학여울역 1번 출구 도보로 10분</div>
+            <br>
+            <div><span>버스 이용시</span></div>
+            <div>대치 2동 주민센터 하차 시 1분 거리 위치</div>
+            <div>마을버스: 강남 01, 강남 06</div><br>
+            <div>휘문고, 대치 2동 주민센터 정거장 하차 시 좌측방향 2분 거리 위치</div>
+            <div>간선: 401 / 지선: 4318, 4319, 4419 </div>
+            <div>직행: 500-2, 9507, 9607</div>
+            <div>일반: 11-3, 917</div>
+
+            <br>
+            <div><span>네비게이션 이용시</span></div>
+            <div>서울시 강남구 도곡로 99길 16 트라디노이 (도로명)</div>
+            <div>서울시 강남구 대치동 984 트라디노이 (지번)</div>
+          </div>
+        </div>
+      </section>
+
+
+
+      <section class="ww-section" id="gallery">
+        <!-- <h3
+          class="text-center pb-3 ww-title"
+          style="font-family: 'Noto Serif KR', serif"
+        >
+          갤러리
+        </h3> -->
+        <h3 class="h4 text-center pb-3 head-color">갤러리</h3>
+        <div id="nanogallery2">gallery_made_with_nanogallery2</div>
+        <script>
+          jQuery(document).ready(function () {
+            jQuery('#nanogallery2').nanogallery2({
+              // ### gallery settings ###
+              thumbnailHeight: 150,
+              thumbnailWidth: 'auto',
+              thumbnailDisplayTransition: 'slideUp2',
+              thumbnailDisplayTransitionDuration: 500,
+              thumbnailDisplayInterval: 30,
+              galleryDisplayTransition: 'rotateX',
+              galleryDisplayTransitionDuration: 500,
+              thumbnailHoverEffect2: 'scale120',
+              thumbnailL1BorderHorizontal: 0,
+              thumbnailL1BorderVertical: 0,
+
+              // ### gallery content ###
+              items: [
+                {
+                  src: './images/pic1.jpg',
+                  srct: './images/pic1.jpg',
+                },
+                {
+                  src: './images/pic2.jpg',
+                  srct: './images/pic2.jpg',
+                },
+                {
+                  src: './images/pic3.jpg',
+                  srct: './images/pic3.jpg',
+                },
+                {
+                  src: './images/pic4.jpg',
+                  srct: './images/pic4.jpg',
+                },
+                {
+                  src: './images/pic5.jpg',
+                  srct: './images/pic5.jpg',
+                },
+                {
+                  src: './images/pic6.jpg',
+                  srct: './images/pic6.jpg',
+                },
+                {
+                  src: './images/pic7.jpg',
+                  srct: './images/pic7.jpg',
+                },
+                {
+                  src: './images/pic8.jpg',
+                  srct: './images/pic8.jpg',
+                },
+                {
+                  src: './images/pic9.jpg',
+                  srct: './images/pic9.jpg',
+                },
+                {
+                  src: './images/pic10.jpg',
+                  srct: './images/pic10.jpg',
+                },
+                {
+                  src: './images/pic11.jpg',
+                  srct: './images/pic11.jpg',
+                },
+                {
+                  src: './images/pic12.jpg',
+                  srct: './images/pic12.jpg',
+                },
+                {
+                  src: './images/pic13.jpg',
+                  srct: './images/pic13.jpg',
+                },
+                {
+                  src: './images/pic14.jpg',
+                  srct: './images/pic14.jpg',
+                },
+                //{
+                //  src: './images/pic15.jpg',
+                //  srct: './images/pic15.jpg',
+                //},
+                {
+                  src: './images/pic16.jpg',
+                  srct: './images/pic16.jpg',
+                },
+                {
+                  src: './images/pic17.jpg',
+                  srct: './images/pic17.jpg',
+                },
+                {
+                  src: './images/pic18.jpg',
+                  srct: './images/pic18.jpg',
+                },
+                {
+                  src: './images/pic19.jpg',
+                  srct: './images/pic19.jpg',
+                },
+                {
+                  src: './images/pic20.jpg',
+                  srct: './images/pic20.jpg',
+                }
+              ],
+            });
+          });
+        </script>
+<!--        <iframe width="560" height="315" src="https://www.youtube.com/embed/" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>-->
+      </section>
+
+      <div class="ww-section bg-dark-ivory white-color">
+        <div class="remittance" id="remittance">
+          <h4 class="h4 pb-3 head-color">신랑 &amp; 신부에게 마음 전하기</h4>
+          <p class="remittance_sub_title"></p>
+          <div class="remittance_btn_bx">
+            <p class="btn_bx_1" id="btn_bx_1">
+              <span class="th">신랑&nbsp;&nbsp;</span>
+              <span class="td input_husband">이정표</span>
+              <a href="#" onclick="return false" class="h_btn">신랑측 계좌번호 보기</a>
+            </p>
+            <p class="btn_bx_2" id="btn_bx_2">
+              <span class="th">신부&nbsp;&nbsp;</span>
+              <span class="td input_wife">장은선</span>
+              <a href="#" onclick="return false" class="w_btn">신부측 계좌번호 보기</a>
+            </p>
+          </div>
+          <!-- 팝업 -->
+          <div class="remittance_pop_h" id="remittance_pop_h" style="display: none;">
+            <div class="remittance_pop_inner">
+              <div class="re_po re_grm_2">
+                <p class="account_h_c account_c" style="font-weight: bold; padding-top:8.2%;"><span class="GroomAccountRelationArea2"><span class="GroomAccountRelation2"></span> <span>계좌</span></span></p>
+                <p class="account_h_c account_c"> <span class="grm_account_bank2"></span> <span class="GroomAccountNameArea2">(예금주 : <span class="GroomAccountName2"></span>)</span></p>
+                <p class="account_num grm_account_num2" id="h_num2"></p>
+                <a class="copy_btn" onclick="copyToClipboard('h_num2')">복사하기</a>
+              </div>
+              <a class="close_btn" href="#" onclick="return false">닫기</a>
+            </div>
+          </div>
+          <div class="remittance_pop_w" id="remittance_pop_w" style="display: none;">
+            <div class="remittance_pop_inner">
+              <div class="re_po re_brd_2">
+                <p class="account_w_c account_c" style="font-weight: bold; padding-top:8.2%;"><span class="BrideAccountRelationArea2"><span class="BrideAccountRelation2"></span> <span>계좌</span></span></p>
+                <p class="account_w_c account_c"> <span class="brd_account_bank2"></span> <span class="BrideAccountNameArea2">(예금주 : <span class="BrideAccountName2"></span>)</span></p>
+                <p class="account_num brd_account_num2" id="w_num2"></p>
+                <a class="copy_btn" onclick="copyToClipboard('w_num2')">복사하기</a>
+              </div>
+              <a class="close_btn" href="#" onclick="return false">닫기</a>
+            </div>
+          </div>
+          <!-- 팝업 -->
+        </div>
+      </div>
+
+    </article>
+
+    <div class="bottom_right">
+      <i class="fa fa-arrow-up fa-2x" id="go-to-top"></i>
+    </div>
+
+    <div class="bottom_left">
+      <audio id="player" src="mus.mp3"></audio>
+      <div>
+        <i
+          class="fa fa-music fa-2x"
+          onclick="document.getElementById('player').play()"
+        ></i>
+      </div>
+    </div>
+    <script
+      src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"
+      integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"
+      integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM"
+      crossorigin="anonymous"
+    ></script>
+  </body>
+</html>
